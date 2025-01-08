@@ -36,4 +36,19 @@ let max = 57;
 let actual = max - 13;
 let percentage = actual / max;
 
+function add7(number) {
+    return number + 7;
+}
+
+function multiply(a, b) {
+    return a * b;
+}
+
+function capitalize(text) {
+    return text.charAt(0).toUpperCase() + text.slice(1);
+}
+
+function lastLetter(text) {
+    return text.slice(-1);
+}
 
